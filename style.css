@@ -21,6 +21,21 @@ header h1 {
     justify-content: space-evenly;
   }
 
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
 footer {
     text-align: right;
+}
+
+.floatRight {
+    float: right;
+}
+
+.floatLeft {
+    float: left;
 }
