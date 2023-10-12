@@ -1,0 +1,26 @@
+body {
+    background-color: #FF99CC;
+    font-family: "Comic Neue";
+}
+
+header h1 {
+    display: inline-block;
+}
+
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+footer {
+    text-align: right;
+}
